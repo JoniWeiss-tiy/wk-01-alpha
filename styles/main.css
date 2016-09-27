@@ -1,7 +1,73 @@
 body {
   background-color: #8421FF;
+  background-image: url("http://www.sweetwater.com/images/items/750/PSK622SN-large.jpg");
+  background-size:cover;
 }
 
-.menu-links {
-  color: #1D1D1D;
+#guitars {
+  background-color: #45177D;
+  color: #F4B9F5;
+}
+
+h2 {
+  border: 5px solid #45177D;
+  border-radius: 20px;
+  padding: .75em;
+  margin: 1em;
+  text-decoration: underline;
+}
+
+h3 {
+  border: 2.5px solid #F4B9F5;
+  padding: 1em;
+}
+
+div ul {
+  color: limegreen;
+}
+
+p {
+  font-size: 15px;
+}
+p.taylor {
+  background-color: #FAD397;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 1.25rem;
+  padding: 5px;
+}
+
+p.taylor span {
+  font-size: 2em;
+  font-style: italic;
+}
+
+h2, h3 {
+  color: #1a1a2c;
+  background-color: #F4B9F5;
+}
+
+li > span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+img {
+  width: 400px;
+  height: auto;
+}
+
+#audition {
+  width: 250px;
+  height: auto;
+  padding: 10px;
+  /*box-shadow: 0 0 10px #1a1a2c;*/
+}
+
+p > em:hover {
+  display: none;
+}
+
+#ladyfest {
+  width: 70%;
 }

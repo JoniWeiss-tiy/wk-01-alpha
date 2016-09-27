@@ -1,0 +1,23 @@
+a {
+  color: brown;
+}
+
+a:visited {
+  color: limegreen;
+}
+
+a:hover {
+  color: transparent;
+}
+
+a:focus {
+  color: darkgrey;
+}
+
+a:active {
+  color: blue;
+}
+
+a[href^="#"] {
+  background-color: lavender;
+}
