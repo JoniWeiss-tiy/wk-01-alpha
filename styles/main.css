@@ -24,9 +24,13 @@ h2 {
 }
 
 h3 {
-  border: 2.5px solid #F4B9F5;
-  padding: 1em;
+  padding: 0 0 1rem 2rem;
 }
+
+/*h2, h3 {
+  color: #1a1a2c;
+  background-color: #F4B9F5;
+}*/
 
 p {
   margin: 1em 2em 1em 2em;
@@ -73,8 +77,41 @@ button a {
   text-decoration: none;
 }
 
-.content {
+.content, .cards {
   padding-top: 40px;
+}
+
+.cards {
+  margin 10px 5% 30px 5%;
+  float: left;
+  width: 32%;
+}
+
+.clear-both{
+  clear: both;
+}
+ /*Nicks Clearfix Hack
+   http://nicolasgallagher.com/micro-clearfix-hack/
+*/
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+.row-one div{
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+.row-two div{
+  float: left;
 }
 
 p.taylor {
@@ -90,10 +127,6 @@ p.taylor span {
   font-style: italic;
 }
 
-h2, h3 {
-  color: #1a1a2c;
-  background-color: #F4B9F5;
-}
 
 li > span {
   font-weight: bold;
@@ -101,7 +134,7 @@ li > span {
 }
 
 img {
-  width: 200px;
+  width: 250px;
   height: auto;
   border: 2px solid black;
   border-radius: 10px;
