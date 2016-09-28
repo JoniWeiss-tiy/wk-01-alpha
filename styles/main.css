@@ -1,11 +1,17 @@
-body {
-  background-color: #8421FF;
-  background-image: url("../images/background.jpg");
-  background-size:cover;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 
-#guitars {
-  background-color: #45177D;
+body {
+  background-color: #8421FF;
+  background-image: linear-gradient(to left top, #F4B9F5, #8421FF);
+  background-size:cover;
+  margin: 0;
+}
+
+h1 {
+  background-color: #1a1a2c;
   color: #F4B9F5;
 }
 
@@ -22,13 +28,55 @@ h3 {
   padding: 1em;
 }
 
-div ul {
-  color: limegreen;
-}
-
 p {
+  margin: 1em 2em 1em 2em;
+  color: #000;
   font-size: 15px;
 }
+
+#navbar {
+  position: fixed;
+  top: 0;
+  background-color: #333;
+  display: table;
+  width: 100%;
+  padding: 10px;
+}
+
+.nav-left {
+  float: left;
+  display: table-row;
+}
+
+.nav-right {
+  float: right;
+  display: table-row;
+}
+
+nav ul li {
+  display: table-cell;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: .25rem;
+  padding: .25rem;
+}
+
+button {
+  background-color: #333;
+  color: #ddd;
+  border-radius: 5px;
+}
+
+nav ul li a,
+button a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.content {
+  padding-top: 40px;
+}
+
 p.taylor {
   background-color: #FAD397;
   border: 2px solid black;
@@ -53,21 +101,9 @@ li > span {
 }
 
 img {
-  width: 400px;
+  width: 200px;
   height: auto;
-}
-
-#audition {
-  width: 250px;
-  height: auto;
-  padding: 10px;
-  /*box-shadow: 0 0 10px #1a1a2c;*/
-}
-
-p > em:hover {
-  display: none;
-}
-
-#ladyfest {
-  width: 70%;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 25px;
 }
