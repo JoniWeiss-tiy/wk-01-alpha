@@ -1,9 +1,9 @@
 a {
-  color: brown;
+  color: white;
 }
 
 a:visited {
-  color: limegreen;
+  color: skyblue;
 }
 
 a:hover {
@@ -19,5 +19,9 @@ a:active {
 }
 
 a[href^="#"] {
-  background-color: lavender;
+color: white;
+}
+
+a[href^="http"] {
+  color: white;
 }

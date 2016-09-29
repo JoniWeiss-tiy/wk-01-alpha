@@ -27,10 +27,13 @@ h3 {
   padding: 0 0 1rem 2rem;
 }
 
-/*h2, h3 {
-  color: #1a1a2c;
-  background-color: #F4B9F5;
-}*/
+a[href^="#"] {
+color: black;
+}
+
+a[href^="http"] {
+  color: white;
+}
 
 p {
   margin: 1em 2em 1em 2em;
@@ -139,4 +142,15 @@ img {
   border: 2px solid black;
   border-radius: 10px;
   margin: 25px;
+}
+
+footer {
+  background-color: #333;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+footer p {
+  text-align: center;
+  color: white;
 }
